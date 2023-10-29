@@ -28,3 +28,7 @@
   justify-content: space-evenly;
   gap: 40px;
 }
+
+.imgMedia {
+  cursor: pointer;
+}

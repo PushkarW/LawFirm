@@ -41,7 +41,7 @@ const Clients = () => {
             <img src={Person2} alt="Gift" className={styles.personimg} />
           </div>
           <div>
-            <h4 className={styles.h4}>Jane Cooper</h4>
+            <h4 className={styles.h4}>Devon Lane</h4>
             <h4 className={styles.h5}>Ceo of Hunt</h4>
 
             <p className={styles.p}>
@@ -56,7 +56,7 @@ const Clients = () => {
             <img src={Person3} alt="Gift" className={styles.personimg} />
           </div>
           <div>
-            <h4 className={styles.h4}>Jane Cooper</h4>
+            <h4 className={styles.h4}>Robert Fox</h4>
             <h4 className={styles.h5}>Ceo of Hunt</h4>
 
             <p className={styles.p}>

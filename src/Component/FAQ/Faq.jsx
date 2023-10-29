@@ -34,13 +34,11 @@ const Faq = () => {
             id="panel1bh-header"
             className={styles.summary}
           >
-            <Typography>Do I need a personal injury report?</Typography>
             <div>
-              {expanded === "panel1" ? (
-                <></>
-              ) : (
-                <img src={Plus} alt="Plus" className={styles.add} />
-              )}
+              <Typography>Do I need a personal injury report?</Typography>
+            </div>
+            <div className={styles.add}>
+              {expanded === "panel1" ? <></> : <img src={Plus} alt="Plus" />}
             </div>
           </AccordionSummary>
           <AccordionDetails className={styles.details}>
@@ -62,13 +60,11 @@ const Faq = () => {
             id="panel1bh-header"
             className={styles.summary}
           >
-            <Typography>Do I need a personal injury report?</Typography>
             <div>
-              {expanded === "panel2" ? (
-                <></>
-              ) : (
-                <img src={Plus} alt="Plus" className={styles.add} />
-              )}
+              <Typography>How much is my case worth?</Typography>
+            </div>
+            <div className={styles.add}>
+              {expanded === "panel2" ? <></> : <img src={Plus} alt="Plus" />}
             </div>
           </AccordionSummary>
           <AccordionDetails className={styles.details}>
@@ -90,13 +86,9 @@ const Faq = () => {
             id="panel1bh-header"
             className={styles.summary}
           >
-            <Typography>Do I need a personal injury report?</Typography>
-            <div>
-              {expanded === "panel3" ? (
-                <></>
-              ) : (
-                <img src={Plus} alt="Plus" className={styles.add} />
-              )}
+            <Typography>What should I do right after car accidect</Typography>
+            <div className={styles.add}>
+              {expanded === "panel3" ? <></> : <img src={Plus} alt="Plus" />}
             </div>
           </AccordionSummary>
           <AccordionDetails className={styles.details}>
@@ -118,13 +110,9 @@ const Faq = () => {
             id="panel1bh-header"
             className={styles.summary}
           >
-            <Typography>Do I need a personal injury report?</Typography>
-            <div>
-              {expanded === "panel4" ? (
-                <></>
-              ) : (
-                <img src={Plus} alt="Plus" className={styles.add} />
-              )}
+            <Typography>How much is my case worth?</Typography>
+            <div className={styles.add}>
+              {expanded === "panel4" ? <></> : <img src={Plus} alt="Plus" />}
             </div>
           </AccordionSummary>
           <AccordionDetails className={styles.details}>

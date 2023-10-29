@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <img src={Logo} alt="logo-img" width={143} />
       <div className={styles.navcontent}>
-        <span>Home </span>
-        <span>Attorneys </span>
-        <span>Practice Area </span>
-        <span>About Us </span>
+        <span className={styles.pointer}>Home </span>
+        <span className={styles.pointer}>Attorneys </span>
+        <span className={styles.pointer}>Practice Area </span>
+        <span className={styles.pointer}>About Us </span>
       </div>
       <button className={styles.btn}>Contact Now</button>
     </nav>

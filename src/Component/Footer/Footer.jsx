@@ -12,16 +12,16 @@ const Footer = () => {
       <nav className={styles.navbar}>
         <img src={Logo} alt="logo-img" width={143} />
         <div className={styles.navcontent}>
-          <span>Home </span>
-          <span>Attorneys </span>
-          <span>Practice Area </span>
-          <span>About Us </span>
+          <span className={styles.imgMedia}>Home </span>
+          <span className={styles.imgMedia}>Attorneys </span>
+          <span className={styles.imgMedia}>Practice Area </span>
+          <span className={styles.imgMedia}>About Us </span>
         </div>
         <div className={styles.media}>
-          <img src={Insta} alt="Insta" />
-          <img src={Facebook} alt="Facebook" />
-          <img src={Twitter} alt="Titter" />
-          <img src={Printrest} alt="Printrest" />
+          <img src={Insta} alt="Insta" className={styles.imgMedia} />
+          <img src={Facebook} alt="Facebook" className={styles.imgMedia} />
+          <img src={Twitter} alt="Titter" className={styles.imgMedia} />
+          <img src={Printrest} alt="Printrest" className={styles.imgMedia} />
         </div>
       </nav>
       <div className={styles.copyright}>
