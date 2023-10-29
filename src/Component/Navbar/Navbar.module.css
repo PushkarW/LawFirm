@@ -1,0 +1,21 @@
+.btn {
+  width: 172px;
+  height: 47px;
+  flex-shrink: 0;
+  background-color: var(--color-black);
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.navbar {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navcontent {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+}

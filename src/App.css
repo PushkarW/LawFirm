@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* width: 1150px; */
+  gap: 50px;
+  background-color: var(--color-gray);
+  padding: 30px;
+  padding-bottom: 50px;
+  margin: 30px;
+}
+img :hover {
+  opacity: 0.3;
+  cursor: pointer;
+}

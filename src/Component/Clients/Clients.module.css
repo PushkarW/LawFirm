@@ -1,0 +1,75 @@
+.h1 {
+  font-size: 54px;
+  font-weight: 600px;
+  text-align: left;
+  margin-left: 100px;
+  width: 370px;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  padding: 100px;
+}
+
+.arrowImg {
+  width: 40px;
+  height: 40px;
+  margin: 25px;
+}
+.arrowImgRight {
+  width: 40px;
+  height: 40px;
+  margin: 25px;
+  rotate: 180deg;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 30px;
+  width: 360px;
+  height: 360px;
+  border-radius: 14px;
+  border: 1.5px solid rgb(57, 56, 56);
+  /* margin: 60px; */
+}
+.container:hover {
+  background-color: rgb(57, 56, 56);
+}
+.circle {
+  position: relative;
+  display: flex;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: white;
+  margin: 25px;
+  cursor: pointer;
+}
+
+.circle:hover {
+  background-color: var(--color-primary);
+}
+
+.personimg {
+  width: 105px;
+  height: 100px;
+}
+
+.p {
+  opacity: 0.3;
+  margin-top: 10px;
+}
+
+.h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
